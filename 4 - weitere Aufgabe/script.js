@@ -5,7 +5,7 @@ console.log('Start');
 *   -----------------------------------
 *   Variabeln sind Falsch deklariert
 */
-function lkjsldkjfkl() {
+function fehlersuche1() {
     
 }
 
@@ -13,7 +13,7 @@ function lkjsldkjfkl() {
 *   -----------------------------------
 *   If ist falsch geschrieben
 */
-function lkjsldkjfkl() {
+function fehlersuche2() {
     
 }
 
@@ -21,7 +21,7 @@ function lkjsldkjfkl() {
 *   -----------------------------------
 *   Iteration hat falsches Ende Funktion testen
 */
-function lkjsldkjfkl() {
+function fehlersuche3() {
     
 }
 
@@ -30,7 +30,7 @@ function lkjsldkjfkl() {
 *   Iteration hat falsches Ende Funktion testen
 */
 function berechneSchaltjahr() {
-
+    
 }
 
 /*   Aufgabe 5: DOM-Manipulation
@@ -38,5 +38,8 @@ function berechneSchaltjahr() {
 *   Iteration hat falsches Ende Funktion testen
 */
 function clickEvent() {
-    
+    for(var i = 0; i < 10; i++) {
+        console.log(i);
+    }
+
 }
