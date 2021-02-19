@@ -8,10 +8,6 @@ console.log('Start');
 *   3. Gebe eine Warunung aus
 *   4. Gebe einen Fehler aus
 */
-console.log('Name: Franjo Franjic' + ' Alter: ' + 18 + ' Geburtstag: ' + new Date('2002-09-27'));
-console.info('Das ist eine Information');
-console.warn('Das ist eine Warnung!');
-console.error('Das hier ist ein Fehler!');
 
 /*   Aufgabe 2: Variabeln 1.0
 *   -----------------------------------
