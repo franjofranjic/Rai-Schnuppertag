@@ -5,26 +5,12 @@ console.log('Start');
 *   Wenn Zahl grösser als 0 gebe aus: die Zahl  ist postiv
 *   Falls Zahl Kleiner als 0 ist gebe aus: die Zahl ist negativ
 */
-function isPositiv(zahl) {
-    if(zahl >= 0){
-        console.log('die Zahl ist positiv');
-    } else{
-        console.log('die Zahl ist negativ.');
-    }
-}
 
 /*   Aufgabe 2: Selektion 2.0
 *   -----------------------------------
 *   Wenn Zahl grösser als 0 und kleiner als 10: die Zahl liegt dazwischen
 *   Ansonsten gebe aus: die Zahl liegt nicht im gültigen Rahmen
 */
-function isBetween(zahl) {
-    if(zahl >= 0 && zahl < 10){
-        console.log('die Zahl liegt dazwischen');
-    } else {
-        console.log('die Zahl liegt nicht im gültigen Rahmen')
-    }
-}
 
 /*   Aufgabe 3: Boolsches Algebra 1.0
 *   -----------------------------------
@@ -32,11 +18,6 @@ function isBetween(zahl) {
 *   Falls beide die Bediengung erfüllen soll true ausgegeben werden.
 *   Falls eine der beiden Bediengungen erfüllt ist soll trotzdem false ausgegeben werden. 
 */
-if(true && false) {
-    console.log("true");
-} else {
-    console.log("false");
-}
 
 /*   Aufgabe 4: Boolsches Algebra 2.0
 *   -----------------------------------
@@ -44,13 +25,6 @@ if(true && false) {
 *   Falls eine Bediengung erfüllt ist soll true ausgegeben werden.
 *   Wenn keine Bediengung erfüllt ist soll false ausgegeben werden. 
 */
-function hasValue() {
-    if(true || false) {
-        console.log("true");
-    } else {
-        console.log("false");
-    }
-}
 
 /*   Aufgabe 5: Noten Function
 *   -----------------------------------
@@ -58,37 +32,10 @@ function hasValue() {
 *   Bei Noten über 4: genügende Note
 */
 
-function noteAnzeige(note) {
-    if(note < 4) {
-
-    } else if(note > 4) {
-
-    }
-}
-
 /*   Aufgabe 6: Switch-Case
 *   -----------------------------------
 *   Erstelle eine Klasse Person
 */
-
-class person {
-    name;
-    geschlecht;
-}
-
-function WerDarfMit(person) {
-    switch(person.geschlecht){
-        case Weiblich:
-            console.log("Weiblich");
-            break;
-        case Männlich:
-            console.log("Männlich");
-            break;
-        default:
-            console.log("Ein Tier oder so");
-            break;
-    }
-}
 
 /*   Aufgabe 7: Trinkspiel
 *   -----------------------------------
@@ -98,17 +45,6 @@ function WerDarfMit(person) {
 *   zwischen 50 und 80: ein Whiskey
 *   An den Rest: Her mit dem Whiskey!
 */
-function whatDrink(alter) {
-    if(alter < 18) {
-        console.log("nichts da");
-    } else if(alter < 80 && alter > 50) {
-        console.log("ein Whiskey")
-    } else if(alter >=18 && alter < 45) {
-        console.log("zwei Bierchen");
-    } else {
-        console.log("paar Whiskeys");
-    }
-}
 
 /*
 *   Aufgabe 8: BMI
@@ -123,10 +59,3 @@ function whatDrink(alter) {
 *
 *   if bmi > 30 return "Obese"
 */
-function calculaterBMI(weight, height){
-    var bmi = weight / height * height;
-    if(bmi <= 18.5) {return 'Underweight';}
-    else if(bmi <= 25) {return 'Normal';}
-    else if(bmi <= 30) {return 'Overweight';}
-    else if(bmi > 30) {return 'Obese';}
-}
